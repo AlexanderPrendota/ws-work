@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/lab-rest/.mvn
+/lab-rest/*.iml
+/lab-rest/.idea
+/.idea
