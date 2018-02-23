@@ -2,4 +2,8 @@
 /lab-rest/.mvn
 /lab-rest/*.iml
 /lab-rest/.idea
+
+/lab-rest1/.mvn
+/lab-rest1/*.iml
+/lab-rest1/.idea
 /.idea
