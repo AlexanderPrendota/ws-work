@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,4 +66,10 @@ public class CookieController {
         cookieRepository.delete(id);
         return ResponseEntity.ok("Cookie: " + id + " was deleted");
     }
+
+    @GetMapping("/user")
+    public Principal user(Principal principal) {
+        return principal;
+    }
+
 }
